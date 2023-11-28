@@ -22,11 +22,11 @@
     "content";
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .main-layout {
     grid-template-areas:
-      "header header"
-      "sidebar content";
+      "header header header header header header"
+      "sidebar content content content content content";
   }
 }
 
