@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div
-      className="font-bold text-3xl text-primary px-8 py-4 flex justify-between items-center"
+      className="font-bold text-3xl text-primary px-4 md:px-8 py-4 flex justify-between items-center"
       style={{ gridArea: "header" }}
     >
       Listen To TED
