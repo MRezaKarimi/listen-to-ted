@@ -32,7 +32,14 @@
 
 /* Track */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 0;
+}
+
+@media (min-width: 1024px) {
+  /* Track */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
 }
 
 /* Track background */
