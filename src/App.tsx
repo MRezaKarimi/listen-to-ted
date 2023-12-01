@@ -1,4 +1,5 @@
 import { FC } from "react";
+import Content from "./components/Content.tsx";
 import Header from "./components/Header.tsx";
 
 const App: FC = () => {
@@ -7,6 +8,7 @@ const App: FC = () => {
       className="h-[100vh] grid gap-x-4 main-layout"
     >
       <Header />
+      <Content />
     </div>
   );
 };
